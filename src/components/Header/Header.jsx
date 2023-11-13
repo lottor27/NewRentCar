@@ -5,18 +5,20 @@ import { LinkLogo, LinkStyled, Section, Wrapper } from './Header.styled'
 
 const Header = () => {
     return (
-        <Section>
-            <Container>
-                <Wrapper>
-                    <p><LinkLogo to='/'>SwiftWheels Rentals</LinkLogo></p>
-                    <nav>
-                        <LinkStyled to='/catalog'>Catalog</LinkStyled>
-                        <LinkStyled to='/favorites'>Favorites</LinkStyled>
-                    </nav>
-                </Wrapper>
-            </Container>
-        </Section>
-    )
+      <Section>
+        <Container>
+          <Wrapper>
+            <p>
+              <LinkLogo to="/">NewRentCar</LinkLogo>
+            </p>
+            <nav>
+              <LinkStyled to="/catalog">Catalog</LinkStyled>
+              <LinkStyled to="/favorites">Favorites</LinkStyled>
+            </nav>
+          </Wrapper>
+        </Container>
+      </Section>
+    );
 }
 
 export default Header
