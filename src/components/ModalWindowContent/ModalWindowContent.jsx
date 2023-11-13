@@ -54,8 +54,7 @@ const ModalWindowContent = ({ advert }) => {
             <p>Rental Conditions: </p>
             <FlexList>
                 <Item key={nanoid()}>{rentalConditionsArray[0]}</Item>
-                {/* <Item key={nanoid()}>{rentalConditionsArray[1]}</Item>
-                <Item key={nanoid()}>{rentalConditionsArray[2]}</Item> */}
+
                 <Item key={nanoid()}>Mileage: {mileage.toLocaleString('en-US', { useGrouping: true })}</Item>
                 <Item key={nanoid()}>Price: {rentalPrice}</Item>
             </FlexList>

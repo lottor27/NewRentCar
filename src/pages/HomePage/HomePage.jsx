@@ -18,7 +18,7 @@ const HomePage = () => {
         <Container>
           <Wrapper>
             <h2>Welcome to NewRentCar</h2>
-            <Button onClick={handleButton}>Find a car</Button>
+            <Button onClick={handleButton}>Search</Button>
           </Wrapper>
         </Container>
       </Section>
